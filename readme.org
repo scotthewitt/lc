@@ -38,25 +38,39 @@ First time git users would be advised to read the Offical Git Tutorial
 *** Use
 
 As files are created they need to be added to the versioning
+
+
 $ git add file-name
 
 
 Also we need to start the ChucK VM
+
+
 $ chuck --loop
 
 
 For one window Chuck
+
+
 $ chuck --loop &
 
 
 Run ChucK file
+
+
 $ lc file-name.ck
+
+
 This will add the file to ChucK and then report the git submission report.
 
 
 To replace the running Chuck code
+
+
 $ lc file-name.ck shred-id
 
 
 Shred id can be established via
+
+
 $ chuck ^
